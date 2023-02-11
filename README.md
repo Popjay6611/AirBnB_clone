@@ -6,7 +6,7 @@
 <p align="center">An AirBnB clone.</p>
 
 <p align="center">
-  <img src="https://github.com/HeimerR/AirBnB_clone/raw/master/images/pipeline.png" alt="HolbertonBnB logo">
+  <img src="https://github.com/HeimerR/AirBnB_clone/raw/master/images/pipeline.png" alt="">
 </p>
 
 ---
