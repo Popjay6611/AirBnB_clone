@@ -1,26 +1,26 @@
 <p align="center">
-  <img src="https://github.com/Michaelndula/AirBnB_clone/blob/master/65f4a1dd9c51265f49d0.png?raw=true" alt="HolbertonBnB logo">
+  <img src="https://github.com/Popjay6611/AirBnB_clone/blob/master/65f4a1dd9c51265f49d0.png?raw=true" alt="AlxBnB logo">
 </p>
 
-<h1 align="center">HolbertonBnB</h1>
+<h1 align="center">AlxBnB</h1>
 <p align="center">An AirBnB clone.</p>
 
 <p align="center">
-  <img src="https://github.com/HeimerR/AirBnB_clone/raw/master/images/pipeline.png" alt="HolbertonBnB logo">
+  <img src="https://github.com/Popjay6611/AirBnB_clone/raw/master/images/pipeline.png" alt="AlxBnB logo">
 </p>
 
 ---
 
 ## Description :house:
 
-HolbertonBnB is a complete web application, integrating database storage, 
+AlxBnB is a complete web application, integrating database storage, 
 a back-end API, and front-end interfacing in a clone of AirBnB.
 
 The project currently only implements the back-end console.
 
 ## Classes :cl:
 
-HolbertonBnB utilizes the following classes:
+AlxBnB utilizes the following classes:
 
 |     | BaseModel | FileStorage | User | State | City | Amenity | Place | Review |
 | --- | --------- | ----------- | -----| ----- | -----| ------- | ----- | ------ |
@@ -34,7 +34,7 @@ HolbertonBnB utilizes the following classes:
 The above classes are handled by the abstracted storage engine defined in the 
 [FileStorage](./models/engine/file_storage.py) class.
 
-Every time the backend is initialized, HolbertonBnB instantiates an instance of 
+Every time the backend is initialized, AlxBnB instantiates an instance of 
 `FileStorage` called `storage`. The `storage` object is loaded/re-loaded from 
 any class instances stored in the JSON file `file.json`. As class instances are 
 created, updated, or deleted, the `storage` object is used to register 
@@ -43,12 +43,12 @@ corresponding changes in the `file.json`.
 ## Console :computer:
 
 The console is a command line interpreter that permits management of the backend 
-of HolbertonBnB. It can be used to handle and manipulate all classes utilized by 
+of AlxBnB. It can be used to handle and manipulate all classes utilized by 
 the application (achieved by calls on the `storage` object defined above).
 
 ### Using the Console
 
-The HolbertonBnB console can be run both interactively and non-interactively. 
+The AlxBnB console can be run both interactively and non-interactively. 
 To run the console in non-interactive mode, pipe any command(s) into an execution 
 of the file `console.py` at the command line.
 
@@ -63,7 +63,7 @@ EOF  all  count  create  destroy  help  quit  show  update
 $
 ```
 
-Alternatively, to use the HolbertonBnB console in interactive mode, run the 
+Alternatively, to use the AlxBnB console in interactive mode, run the 
 file `console.py` by itself:
 
 ```
@@ -94,7 +94,7 @@ $
 
 ### Console Commands
 
-The HolbertonBnB console supports the following commands:
+The AlxBnB console supports the following commands:
 
 * **create**
   * Usage: `create <class>`
@@ -267,7 +267,7 @@ m', 'first_name': 'Holberton', 'updated_at': datetime.datetime(2019, 2, 17, 21,
 
 ## Testing :straight_ruler:
 
-Unittests for the HolbertonBnB project are defined in the [tests](./tests) 
+Unittests for the AlxBnB project are defined in the [tests](./tests) 
 folder. To run the entire test suite simultaneously, execute the following command:
 
 ```
