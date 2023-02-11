@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://github.com/Popjay6611/AirBnB_clone/blob/master/65f4a1dd9c51265f49d0.png?raw=true" alt="AlxBnB logo">
+  <img src="https://github.com/Popjay6611/AirBnB_clone/master/icon.png" alt="AlxBnB logo">
 </p>
 
 <h1 align="center">AlxBnB</h1>
 <p align="center">An AirBnB clone.</p>
 
 <p align="center">
-  <img src="https://github.com/Popjay6611/AirBnB_clone/raw/master/images/logo.png" alt="AlxBnB logo">
+  <img src="https://github.com/Popjay6611/AirBnB_clone/images/logo.png" alt="AlxBnB logo">
 </p>
 
 ---
